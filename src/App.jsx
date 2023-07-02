@@ -15,11 +15,11 @@ function App() {
       <Main/>
       <h1 className="font-bold text-3xl mt-20">Projetos</h1>
       <img src={arrow} alt="Seta para baixo" className=" animate-bounce" />
-      <div className="grid grid-cols-2 gap-20 mt-10  ">
+      <div className="grid lg:grid-cols-2 gap-20 mt-10  ">
         <Project project="Website Smart Connect" linguagens={linguagens} link="https://landing-page-smart-connect.vercel.app/"><img src={smartConnect} alt="imagem de projeto smart connect" /></Project>
         <Project project="Pokédex" linguagens={linguagens2} link="https://pokedex-next-green.vercel.app/"><img src={pokedex} alt="imagem de projeto pokédex" /></Project> 
       </div>
-      <div className="mb-10">
+      <div className="mb-10 p-8">
         <h1 className="mt-36 mb-10 text-2xl text-center">Meus projetos <b>backend</b></h1>
         <ul >
           <li className=" list-disc">API que registra pesquisa e usuários, feita em java com com Spring boot e banco de dados H2: <a href="" className="text-blue-900">Ver código</a></li>
