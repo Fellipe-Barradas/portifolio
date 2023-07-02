@@ -13,7 +13,7 @@ export default function Main() {
                     <img src={github} alt="curriculo onlinne" className="w-8 h-8"/>
                 </div>
             </div>
-            <h1 className="text-5xl  font-bold ">Frontend developer</h1>
+            <h1 className="text-5xl  font-bold ">FullStack developer</h1>
             <p className=" max-w-lg  text-zinc-800 text-sm">Tenho 18 anos, sou desenvolvedor FrontEnd há cerca de 1 ano, com experiência em diversos projetos independentes e da faculdade. Utilizando de tecnologias como <b>HTMl</b>, <b>CSS</b>, <b>Javascript</b>, <b>React</b>, <b>Typescript</b> e muitos outros! </p>
         </div>
     )
