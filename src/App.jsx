@@ -4,6 +4,7 @@ import smartConnect from "/projects/display_smart.png"
 import pokedex from "/projects/pokedex_display.png"
 import arrow from "/arrow_down.png"
 import Languages from "./components/Languages"
+import About from "./components/About"
 
 function App() {
   const linguagens = ["bxl_tailwind-css.png","logos_react.png" ,"skill-icons_typescript.png"]
@@ -25,8 +26,10 @@ function App() {
           <li className=" list-disc">Projeto Spring Boot e banco de dados MySQL, do curso Java completo do Nélio Alves: <a href="" className="text-blue-900">Ver código</a></li>
         </ul>
       </div>
-      <h1 className="text-2xl mt-20">Linguagens e tecnologias</h1>
+      <hr />
+      <h1 className="text-2xl mt-20 border border-zinc-900 rounded-md p-2 font-bold">Linguagens e tecnologias</h1>
       <Languages/>
+      <About/>
     </div>
   )
 }
