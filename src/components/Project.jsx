@@ -12,7 +12,7 @@ export default function Project(props) {
         <div className="p-3 flex flex-col items-center">
             <div className="flex">{displayLanguages(props.linguagens)}</div>
             {props.children}
-            <h1 className="text-center">{props.project}</h1>
+            <h1 className="text-center text-xl">{props.project}</h1>
         </div>
     )
 }
