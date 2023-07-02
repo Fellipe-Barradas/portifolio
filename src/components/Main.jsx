@@ -1,6 +1,6 @@
 export default function Main() {
     return (
-        <div className="border   font-primary flex flex-col justify-center gap-4">
+        <div className="border   font-primary flex flex-col justify-center gap-4 flex-1">
             <div className="flex gap-6">
                 <h1 className="text-zinc-900">Olá, meu nome é <b>Luis fellipe</b></h1>
                 <div>
