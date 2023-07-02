@@ -11,7 +11,7 @@ export default function Project(props) {
     return(
         <div className="p-3 flex flex-col items-center">
             <div className="flex">{displayLanguages(props.linguagens)}</div>
-            {props.children}
+            <a href={props.link} target="_blank" className=" cursor-pointer">{props.children}</a>
             <h1 className="text-center text-xl">{props.project}</h1>
         </div>
     )
