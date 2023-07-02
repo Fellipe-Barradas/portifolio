@@ -3,6 +3,7 @@ import Project from "./components/Project"
 import smartConnect from "/projects/display_smart.png"
 import pokedex from "/projects/pokedex_display.png"
 import arrow from "/arrow_down.png"
+import Languages from "./components/Languages"
 
 function App() {
   const linguagens = ["bxl_tailwind-css.png","logos_react.png" ,"skill-icons_typescript.png"]
@@ -17,14 +18,15 @@ function App() {
         <Project project="Website Smart Connect" linguagens={linguagens}><img src={smartConnect} alt="imagem de projeto smart connect" /></Project>
         <Project project="Pokédex" linguagens={linguagens2}><img src={pokedex} alt="imagem de projeto pokédex" /></Project> 
       </div>
-      <div className="mb-20">
+      <div className="mb-10">
         <h1 className="mt-36 mb-10 text-2xl text-center">Meus projetos <b>backend</b></h1>
-        <ul className="">
+        <ul >
           <li className=" list-disc">API que registra pesquisa e usuários, feita em java com com Spring boot e banco de dados H2: <a href="" className="text-blue-900">Ver código</a></li>
           <li className=" list-disc">Projeto Spring Boot e banco de dados MySQL, do curso Java completo do Nélio Alves: <a href="" className="text-blue-900">Ver código</a></li>
         </ul>
-
       </div>
+      <h1 className="text-2xl mt-20">Linguagens e tecnologias</h1>
+      <Languages/>
     </div>
   )
 }
